@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(255, 165, 0);
+  background-color: #ff8210;
 }
 header {
   text-align: center;
@@ -24,7 +24,7 @@ nav a {
   justify-content: space-around;
   align-items: center;
   padding: 60px 20px;
-  background-color: rgb(255, 165, 0);
+  background-color: #ff8210;
 }
 .hero-text {
   max-width: 500px;
@@ -40,7 +40,10 @@ nav a {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: rgb(28, 28, 28);
+  background-color: #ff8210;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+
+  transition: all 0.3s ease;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -62,7 +65,7 @@ nav a {
   flex-wrap: wrap;
 }
 .service {
-  background: rgb(255, 165, 0);
+  background: #ff8210;
   padding: 20px;
   border-radius: 10px;
   width: 250px;
@@ -73,7 +76,6 @@ footer {
   color: rgb(17, 22, 22);
   text-align: center;
   padding: 8px;
-  
 }
 .imgtit {
   width: 100%;
@@ -87,4 +89,9 @@ footer {
   height: 400px;
   margin-left: 650px;
   margin-top: -250px;
+}
+@media (max-width: 583px) {
+  .imglat {
+    display: none;
+  }
 }
