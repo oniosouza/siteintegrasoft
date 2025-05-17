@@ -1,124 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Desenvolvimento Web e Sistemas</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Bootstrap 5 CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-  <div class="imgtit1">
-    <img class="imgtit" src="img/WhatsApp Image 2025-05-13 at 14.50.09 (1).jpeg" alt="Web Dev Icon" width="300" />
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Integrasoft</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
     </div>
-  <header>
-    
-   
-    <h1>SITES E SISTEMAS SOB MEDIDA PARA O SEU NEGÓCIO</h1>
+  </div>
+</nav>
+
+  <!-- IMAGEM TOPO -->
+  <div class="text-center my-4">
+    <img class="img-fluid" src="img/WhatsApp Image 2025-05-13 at 14.50.09 (1).jpeg" alt="Web Dev Icon">
+  </div>
+
+  <!-- HEADER -->
+  <header class="text-center mb-5">
+    <h1 class="fw-bold">SITES E SISTEMAS SOB MEDIDA PARA O SEU NEGÓCIO</h1>
   </header>
 
-  <nav>
-    <a href="#sobre">Sobre</a>
-    <a href="#servicos">Serviços</a>
-    <a href="#contato">Contato</a>
-  </nav>
-
-  <section class="hero">
-    <div class="hero-text">
-      <h1>Criação de Sites e Sistemas</h1>
-      <p>Desenvolvemos soluções digitais modernas, responsivas e personalizadas.</p>
-      <a href="https://bit.ly/site-info-whatsapp" target="_blank"class="button">Fale Conosco</a>
-      
-    </div>
-    <img class="imglat" src="img/Nossa Tecnologia Simplica seu dia.jpg" alt="Web Dev Icon" width="300" />
-    
-  </section>
-  <div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/452.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Bem Vindo ao Sabor da Revolução</h5>
-        <p>Faça sua amburgueria Bombar Nas Redes Sociais</p>
+  <!-- HERO -->
+  <section class="hero container mb-5">
+    <div class="row align-items-center">
+      <div class="col-md-6 ">
+        <h2>Criação de Sites e Sistemas</h2>
+        <p>Desenvolvemos soluções digitais modernas, responsivas e personalizadas.</p>
+        <a href="https://bit.ly/site-info-whatsapp" target="_blank" class="btn-primary">Fale Conosco</a>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="img/4514408.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>É Pizza!</h5>
-        <p>Coloque Sua Pizzaria Na Rua Mais Movimentada do Mundo!</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="img/gu_laches_site_v01.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Telas de Sucesso</h5>
-        <p>Seu Restaurante Adaptado A Qualquer Tela</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/107_generated.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/Project_47-14.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/vecteezy_e-commerce-shop-for-the-world-s-online-shopping-transactions_.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-  <section class="services" id="servicos">
-    <h2>Nossos Serviços</h2>
-    <div class="service-boxes">
-      <div class="service">
-        <h3>Desenvolvimento Web</h3>
-        <p>Criação de sites responsivos, funcionais e com design moderno.</p>
-      </div>
-      <div class="service">
-        <h3>Sistemas Personalizados</h3>
-        <p>Soluções específicas para empresas, com alta performance e segurança.</p>
-      </div>
-      <div class="service">
-        <h3>Suporte e Manutenção</h3>
-        <p>Atendimento contínuo e atualizações técnicas para seu sistema.</p>
+      <div class="col-md-6 text-center">
+        <img class="img-fluid" src="img/Nossa Tecnologia Simplica seu dia.jpg" alt="Web Dev Icon" />
       </div>
     </div>
   </section>
 
-  <footer id="contato">
+  <!-- CARROSSEL 1 -->
+  <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/452.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+         
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/4514408.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>É Pizza!</h5>
+          <p>Coloque sua pizzaria na rua mais movimentada do mundo!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/gu_laches_site_v01.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Telas de Sucesso</h5>
+          <p>Seu restaurante adaptado a qualquer tela.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- CARROSSEL 2 -->
+  <div id="carouselExampleControlsNoTouching" class="carousel slide mb-5" data-bs-touch="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/107_generated.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Project_47-14.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/vecteezy_e-commerce-shop-for-the-world-s-online-shopping-transactions_.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- SERVIÇOS -->
+  <section class="services py-5 bg-light" id="servicos">
+    <div class="container">
+      <h2 class="text-center mb-4">Nossos Serviços</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="card-title">Desenvolvimento Web</h3>
+              <p class="card-text">Criação de sites responsivos, funcionais e com design moderno.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="card-title">Sistemas Personalizados</h3>
+              <p class="card-text">Soluções específicas para empresas, com alta performance e segurança.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="card-title">Suporte e Manutenção</h3>
+              <p class="card-text">Atendimento contínuo e atualizações técnicas para seu sistema.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer id="contato" class="bg-dark text-white text-center py-4">
     <p>© 2025 Integrasoft Sistemas | Todos os direitos reservados.</p>
-    <a>E-mail: oniosouza@gmail.com | <a href="https://bit.ly/site-info-whatsapp"target="_blank"style="text-decoration: none;">(84)98839-9025</a>
+    <p>
+      E-mail:
+      <a href="mailto:oniosouza@gmail.com" class="text-white">oniosouza@gmail.com</a> |
+      <a href="https://bit.ly/site-info-whatsapp" target="_blank" class="text-white text-decoration-none">(84) 98839-9025</a>
+    </p>
   </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
