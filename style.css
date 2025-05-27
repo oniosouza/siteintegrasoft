@@ -36,3 +36,8 @@
 .card-body {
   background-color: #ff8210;
 }
+.cards{
+  background-color: #044547;
+  width: 100%;
+  height: 25vw;
+}
